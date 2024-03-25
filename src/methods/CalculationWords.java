@@ -1,11 +1,9 @@
 package methods;
 
 import java.util.HashMap;
-import java.util.Locale;
 import java.util.Map;
 
 public class CalculationWords {
-
     public static void CalculationWord(String[] picnic) {
         String maxLength = picnic[0];
         int countOfWords = 0;
@@ -19,7 +17,6 @@ public class CalculationWords {
                 uniqPicnic.put(foods, uniqPicnic.get(foods)+1);
             }
         }
-
         System.out.printf("Самое длинное слово в файле = %s \n", maxLength);
         System.out.printf("Количество слов в файле = %d \n", countOfWords);
         System.out.println("Частота слов : ");
